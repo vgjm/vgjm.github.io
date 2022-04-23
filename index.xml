@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vgjm</title>
-    <link>http://vgjm.github.io/</link>
+    <link>https://vgjm.github.io/</link>
     <description>Recent content on vgjm</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2022 vgjm</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 15:55:59 +0800</lastBuildDate><atom:link href="http://vgjm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 15:55:59 +0800</lastBuildDate><atom:link href="https://vgjm.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://vgjm.github.io/posts/my-first-post/</link>
+      <link>https://vgjm.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 04 Apr 2022 15:55:59 +0800</pubDate>
       
-      <guid>http://vgjm.github.io/posts/my-first-post/</guid>
+      <guid>https://vgjm.github.io/posts/my-first-post/</guid>
       <description>Hi! this is my first blog post. package main import ( &amp;#34;fmt&amp;#34; ) func main() { fmt.Println(&amp;#34;Hello world!&amp;#34;) } </description>
     </item>
     
