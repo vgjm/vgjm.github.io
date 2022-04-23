@@ -1,7 +1,6 @@
 name: Deploy 
 
 on:
-  # run automatically every 6 hours
   schedule:
     - cron: "0 0 * * *" 
   push:
