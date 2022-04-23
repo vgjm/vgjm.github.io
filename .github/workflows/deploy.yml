@@ -1,0 +1,40 @@
+name: Deploy 
+
+on:
+  # run automatically every 6 hours
+  schedule:
+    - cron: "0 */12 * * *" 
+  push:
+    branches:
+    - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    SOURCE_BRANCH: public
+    SOURCE_DIR: build
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
+    - name: Create local changes
+      run: |
+        find . -maxdepth 1 -type d ! -name ".*" -exec rm -r {} \;
+        find . -maxdepth 1 -type f ! -name ".*" -exec rm {} \;
+        git clone -b $SOURCE_BRANCH git@github.com:vgjm/website.git ../website
+        cp -r ../website/$SOURCE_DIR/* ./
+    - name: Commit files
+      run: |
+        git config --local user.email "heigliner-robot@h8r.io"
+        git config --local user.name "heigliner-robot"
+        git add .
+        git commit -m "Deploy changes" -a
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
+        branch: ${{ github.ref }}
