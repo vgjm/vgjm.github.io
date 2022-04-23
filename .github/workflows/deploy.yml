@@ -3,7 +3,7 @@ name: Deploy
 on:
   # run automatically every 6 hours
   schedule:
-    - cron: "0 */12 * * *" 
+    - cron: "0 0 * * *" 
   push:
     branches:
     - 'main'
@@ -28,8 +28,8 @@ jobs:
         cp -r ../website/$SOURCE_DIR/* ./
     - name: Commit files
       run: |
-        git config --local user.email "heigliner-robot@h8r.io"
-        git config --local user.name "heigliner-robot"
+        git config --local user.email "actions@github.com"
+        git config --local user.name "github-actions"
         git add .
         git commit -m "Deploy changes" -a
 
