@@ -26,6 +26,7 @@ jobs:
         find . -maxdepth 1 -type f ! -name ".*" -exec rm {} \;
         git clone -b $SOURCE_BRANCH https://github.com/vgjm/website.git ../website
         cp -r ../website/$SOURCE_DIR/* ./
+        date > deploy.log
     - name: Commit files
       run: |
         git config --local user.email "actions@github.com"
