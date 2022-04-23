@@ -11,8 +11,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    SOURCE_BRANCH: public
-    SOURCE_DIR: build
+    env:
+      SOURCE_BRANCH: public
+      SOURCE_DIR: build
     steps:
     - uses: actions/checkout@v2
       with:
