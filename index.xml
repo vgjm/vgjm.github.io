@@ -5,14 +5,16 @@
     <link>https://vgjm.github.io/</link>
     <description>Recent content on vgjm</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Apr 2022 15:55:59 +0800</lastBuildDate><atom:link href="https://vgjm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 15:11:47 +0800</lastBuildDate><atom:link href="https://vgjm.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://vgjm.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 04 Apr 2022 15:55:59 +0800</pubDate>
+      <title>How to Setup GitHub Pages with HUGO</title>
+      <link>https://vgjm.github.io/posts/how-to-setup-github-pages-with-hugo/</link>
+      <pubDate>Sat, 23 Apr 2022 15:11:47 +0800</pubDate>
       
-      <guid>https://vgjm.github.io/posts/my-first-post/</guid>
-      <description>Hi! this is my first blog post. package main import ( &amp;#34;fmt&amp;#34; ) func main() { fmt.Println(&amp;#34;Hello world!&amp;#34;) } </description>
+      <guid>https://vgjm.github.io/posts/how-to-setup-github-pages-with-hugo/</guid>
+      <description>I setup this website with GitHub Pages today. Just want to share my fresh experience with the friends on the internet.
+Requirement:
+ Create a Github account Install Git  What is GitHub Pages?  GitHub Pages is a free service provided by GitHub. You can use it to deploy a simple static website. Static basically means it can not be super sophisticated. Since what I need is just a place to record my thoughs and share with others, it&amp;rsquo;s usful enough.</description>
     </item>
     
   </channel>
