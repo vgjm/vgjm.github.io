@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Jinming Guo</title>
+    <link>https://vgjm.github.io/posts/</link>
+    <description>Recent content in Posts on Jinming Guo</description>
+    <generator>Hugo -- 0.125.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Apr 2022 15:11:47 +0800</lastBuildDate>
+    <atom:link href="https://vgjm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Setup GitHub Pages with HUGO</title>
+      <link>https://vgjm.github.io/posts/how-to-setup-github-pages-with-hugo/</link>
+      <pubDate>Sat, 23 Apr 2022 15:11:47 +0800</pubDate>
+      <guid>https://vgjm.github.io/posts/how-to-setup-github-pages-with-hugo/</guid>
+      <description>I setup this website with GitHub Pages today. Just want to share my fresh experience with the friends on the internet.
+Requirement:
+Create a Github account Install Git What is GitHub Pages? GitHub Pages is a free service provided by GitHub. You can use it to deploy a simple static website. Static basically means it can not be super sophisticated. Since what I need is just a place to record my thoughts and share with other people, it&amp;rsquo;s useful enough.</description>
+    </item>
+  </channel>
+</rss>

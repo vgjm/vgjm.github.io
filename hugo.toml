@@ -1,0 +1,5 @@
+baseURL = 'https://vgjm.github.io/'
+languageCode = 'en-us'
+title = 'Jinming Guo'
+theme = "PaperMod"
+publishDir = "docs"
