@@ -13,7 +13,7 @@ Requirement:
 
 ---
 
-[GitHub Pages](https://pages.github.com/) is a free service provided by GitHub. You can use it to deploy a simple *static* website. *Static* basically means there is not a server behind it, which is OK for holding blog posts. Since what I need is just a place to record my thoughts and share with other people, it's useful enough.
+[GitHub Pages](https://pages.github.com/) is a free service provided by GitHub. You can use it to deploy a simple *static* website. *Static* means there is no server behind it, which is OK for holding blog posts. Since what I need is just a place to record my thoughts and share with other people, it's useful enough.
 
 To use GitHub Pages, simply create a repository named *username*.github.io, where username is your username on GitHub. Then put some contents in that repository. GitHub will deploy it automatically.
 

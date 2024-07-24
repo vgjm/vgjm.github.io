@@ -15,7 +15,7 @@
       <guid>https://vgjm.github.io/posts/how-to-setup-github-pages-with-hugo/</guid>
       <description>I setup this website with GitHub Pages today. Just want to share my fresh experience with the friends on the internet.
 Requirement:
-Create a Github account Install Git What is GitHub Pages? GitHub Pages is a free service provided by GitHub. You can use it to deploy a simple static website. Static basically means there is not a server behind it, which is OK for holding blog posts. Since what I need is just a place to record my thoughts and share with other people, it&amp;rsquo;s useful enough.</description>
+Create a Github account Install Git What is GitHub Pages? GitHub Pages is a free service provided by GitHub. You can use it to deploy a simple static website. Static means there is no server behind it, which is OK for holding blog posts. Since what I need is just a place to record my thoughts and share with other people, it&amp;rsquo;s useful enough.</description>
     </item>
   </channel>
 </rss>
